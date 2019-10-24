@@ -1,6 +1,6 @@
 #import "MainWC.h"
 #import "DynamicCodesController.h"
-#import "DynamicCode.h"
+#import "DynamicCode+NSPasteboardWriting.h"
 
 @interface MainWC ()
 

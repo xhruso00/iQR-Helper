@@ -13,6 +13,4 @@
 
 @end
 
-@interface DynamicCode(NSPasteboardWriting) <NSPasteboardWriting>
 
-@end

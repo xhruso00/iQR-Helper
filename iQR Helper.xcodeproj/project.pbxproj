@@ -18,6 +18,7 @@
 		D2DA599D23606FDE00F48159 /* NonSandboxIQRPlistProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DA599C23606FDE00F48159 /* NonSandboxIQRPlistProvider.m */; };
 		D2DA59A12360E8BA00F48159 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D2DA59A02360E8BA00F48159 /* README.md */; };
 		D2DA59B423619F0700F48159 /* NSTableView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DA59B323619F0700F48159 /* NSTableView+Additions.m */; };
+		D2DA59C12361AE0100F48159 /* DynamicCode+NSPasteboardWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DA59C02361AE0100F48159 /* DynamicCode+NSPasteboardWriting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		D2DA59A02360E8BA00F48159 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2DA59B223619F0700F48159 /* NSTableView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTableView+Additions.h"; sourceTree = "<group>"; };
 		D2DA59B323619F0700F48159 /* NSTableView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+Additions.m"; sourceTree = "<group>"; };
+		D2DA59BF2361AE0100F48159 /* DynamicCode+NSPasteboardWriting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicCode+NSPasteboardWriting.h"; sourceTree = "<group>"; };
+		D2DA59C02361AE0100F48159 /* DynamicCode+NSPasteboardWriting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DynamicCode+NSPasteboardWriting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +79,10 @@
 			children = (
 				D2DA5969236059B100F48159 /* AppDelegate.h */,
 				D2DA596A236059B100F48159 /* AppDelegate.m */,
-				D2DA597C236059DB00F48159 /* MainWC.h */,
-				D2DA597D236059DB00F48159 /* MainWC.m */,
 				D2DA599B23606FDE00F48159 /* NonSandboxIQRPlistProvider.h */,
 				D2DA599C23606FDE00F48159 /* NonSandboxIQRPlistProvider.m */,
-				D2DA59982360618C00F48159 /* DynamicCodesController.h */,
-				D2DA59992360618C00F48159 /* DynamicCodesController.m */,
-				D2DA59952360604D00F48159 /* DynamicCode.h */,
-				D2DA59962360604D00F48159 /* DynamicCode.m */,
+				D2DA59C32361AEA300F48159 /* Controllers */,
+				D2DA59C22361AE9500F48159 /* Model */,
 				D2DA59B123619F0700F48159 /* Helpers */,
 				D2DA596C236059B200F48159 /* Assets.xcassets */,
 				D2DA596E236059B200F48159 /* MainMenu.xib */,
@@ -102,6 +101,28 @@
 				D2DA59B323619F0700F48159 /* NSTableView+Additions.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D2DA59C22361AE9500F48159 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA59952360604D00F48159 /* DynamicCode.h */,
+				D2DA59962360604D00F48159 /* DynamicCode.m */,
+				D2DA59BF2361AE0100F48159 /* DynamicCode+NSPasteboardWriting.h */,
+				D2DA59C02361AE0100F48159 /* DynamicCode+NSPasteboardWriting.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2DA59C32361AEA300F48159 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA59982360618C00F48159 /* DynamicCodesController.h */,
+				D2DA59992360618C00F48159 /* DynamicCodesController.m */,
+				D2DA597C236059DB00F48159 /* MainWC.h */,
+				D2DA597D236059DB00F48159 /* MainWC.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +199,7 @@
 				D2DA59972360604D00F48159 /* DynamicCode.m in Sources */,
 				D2DA599A2360618C00F48159 /* DynamicCodesController.m in Sources */,
 				D2DA599D23606FDE00F48159 /* NonSandboxIQRPlistProvider.m in Sources */,
+				D2DA59C12361AE0100F48159 /* DynamicCode+NSPasteboardWriting.m in Sources */,
 				D2DA5973236059B200F48159 /* main.m in Sources */,
 				D2DA59B423619F0700F48159 /* NSTableView+Additions.m in Sources */,
 				D2DA597E236059DB00F48159 /* MainWC.m in Sources */,
