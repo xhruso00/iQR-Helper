@@ -110,6 +110,7 @@
                                         <binding destination="RaE-Ol-abi" name="selectionIndexes" keyPath="selectionIndexes" previousBinding="HRm-GN-s7L" id="5du-Em-kgB"/>
                                         <binding destination="RaE-Ol-abi" name="sortDescriptors" keyPath="sortDescriptors" previousBinding="5du-Em-kgB" id="YfL-2k-xZh"/>
                                         <outlet property="delegate" destination="-2" id="NIw-XJ-hYg"/>
+                                        <outlet property="menu" destination="qoq-gm-tUz" id="se2-le-xh9"/>
                                     </connections>
                                 </tableView>
                             </subviews>
@@ -201,5 +202,22 @@
             <point key="canvasLocation" x="177.5" y="162.5"/>
         </window>
         <arrayController automaticallyRearrangesObjects="YES" id="RaE-Ol-abi" customClass="DynamicCodesController"/>
+        <menu id="qoq-gm-tUz">
+            <items>
+                <menuItem title="Copy" id="XeU-rf-Xgi">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="copy:" target="-1" id="q08-r2-WoB"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Delete" id="VZX-o9-DVj">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="delete:" target="-1" id="kQa-9S-A0f"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="140" y="-110"/>
+        </menu>
     </objects>
 </document>

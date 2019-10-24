@@ -76,7 +76,7 @@
 //no need for keyDown+tableView if we add a keyboard shortcut to mainMenu
 - (void)delete:(nullable id)sender
 {
-    [[self dynamicCodesController] remove:nil];
+    [self.dynamicCodesController remove:nil];
 }
 
 - (void)copy:(nullable id)sender
@@ -85,17 +85,6 @@
     NSPasteboard *pasteboard = [NSPasteboard generalPasteboard];
     [pasteboard clearContents];
     [pasteboard writeObjects:codes];
-}
-
-- (NSIndexSet *)indexesToProcessForContextMenu {
-    NSIndexSet *selectedIndexes = self.tableView.selectedRowIndexes;
-    // If the clicked row was in the selectedIndexes, then we process all selectedIndexes.
-    // Otherwise, we process just the clickedRow.
-    //
-    if (self.tableView.clickedRow != -1 && ![selectedIndexes containsIndex:self.tableView.clickedRow]) {
-        selectedIndexes = [NSIndexSet indexSetWithIndex:self.tableView.clickedRow];
-    }
-    return selectedIndexes;
 }
 
 - (BOOL)validateMenuItem:(NSMenuItem *)menuItem
