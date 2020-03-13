@@ -151,7 +151,7 @@
 		D2DA595E236059B100F48159 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Marek Hrušovský";
 				TargetAttributes = {
 					D2DA5965236059B100F48159 = {
@@ -335,8 +335,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iQR Helper/PlistToTextExtractor.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BXQ2LHBD6T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "iQR Helper/Info.plist";
@@ -355,8 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iQR Helper/PlistToTextExtractor.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BXQ2LHBD6T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "iQR Helper/Info.plist";
