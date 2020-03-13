@@ -21,6 +21,11 @@
     return YES;
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
+{
+    return YES;
+}
+
 - (MainWC *)mainWC
 {
     if (_mainWC == nil) {
