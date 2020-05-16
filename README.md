@@ -1,6 +1,7 @@
 # iQR Helper for Dynamic QR Codes
 
 - Resize window and sorting
+- Filter results using search
 - Easily copy selected rows to clipboard
 - Export all to file
 - Save back the edited history to iQR
