@@ -1,4 +1,4 @@
-# iQR Helper for Dynamic QR Codes
+# iQR codes Helper for Dynamic QR Codes (usable only for iQR codes 1.9)
 
 - Resize window and sorting
 - Filter results using search
